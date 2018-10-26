@@ -1,0 +1,18 @@
+ <div class="container">
+    <mat-card>
+       <mat-card-content>
+         <p>Upload a JSON file</p>
+          <input id="file-upload"
+          type="file"
+          accept=".JSON"
+          (change)="fileUpload($event)">
+       </mat-card-content>
+    </mat-card>
+ <!--  <textarea rows="10" cols="60">{{fileText}}</textarea>  -->   
+    <div *ngIf="chart">
+        <canvas id="canvas">
+          {{chart}}
+        </canvas>
+      </div>
+
+ </div>
