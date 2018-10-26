@@ -9,7 +9,7 @@ Draw a chart from given a JSON file.
   
 
 ## Screenshots
-### For groupID=1, whole chart
+### For all the 3 sample data
 ![alt text](https://github.com/AnilSharma1997/JsonToChart/blob/master/Screenshot/chart.png)
 
 ### If we check sample_1_3
